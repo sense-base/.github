@@ -1,13 +1,17 @@
-# SENSE-BASE
+<div style="text-align: center;" align="center">
+  <img src="sense-base-framework.svg" alt="cdi-hub" width="600"/>
+  <h1> :robot: SENSE-BASE Framework </h1>
+</div>
+
+SENSE-BASE is a ROS2-based framework for multimodal biosignals from EEG, EoG, ECG, and depth cameras.
 
 ## :school_satchel: Getting started
-* :computer: [Setting up ROS2 with docker container](https://github.com/sense-base/base/tree/main/docs/docker)
-
-* :octocat: Clone repos under `sense-base` path and refer to the [CONTRIBUTING](CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
+* :octocat: Clone SENSE-BASE repositories under `sense-base` path and refer to the [CONTRIBUTING](../CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
 ```
 # For example:
 git clone git@github.com:sense-base/sense_eeg.git
 ```
+* :computer: [Setting up ROS2 with docker container](https://github.com/sense-base/base/tree/main/docs/docker)
 
 * :nut_and_bolt: Run and debug. Open a terminal into the loaded container in VSCode using the dev containers extension, and run
 ```
