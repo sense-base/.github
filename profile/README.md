@@ -1,9 +1,9 @@
 <div style="text-align: center;" align="center">
-  <img src="sense-base-framework.svg" alt="cdi-hub" width="600"/>
+  <img src="../docs/figs/sense-base-framework.svg" alt="cdi-hub" width="600"/>
   <h1> :robot: SENSE-BASE Framework </h1>
 </div>
 
-SENSE-BASE is a ROS2-based framework for multimodal biosignals from EEG, EoG, ECG, and depth cameras.
+**SENSE-BASE** is a ROS2-based framework for multimodal biosignals from EEG, EoG, ECG, and depth cameras.
 
 ## :school_satchel: Getting started
 * :octocat: Clone SENSE-BASE repositories under `sense-base` path and refer to the [CONTRIBUTING](../CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
