@@ -15,7 +15,7 @@ git clone git@github.com:sense-base/sense_eeg.git
 ```
 
 ## New issues
-* Open an issue (bug report, feature request, or something is not working): https://github.com/sense-base/sense_eeg/issues/new/choose
+* Open an issue (bug report, feature request, or something is not working): https://github.com/sense-base/.github/issues/new/choose
 * Workflow for issue management 
 ```mermaid
   flowchart TD;
