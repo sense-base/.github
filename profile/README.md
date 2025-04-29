@@ -1,17 +1,53 @@
-<div style="text-align: center;" align="center">
-  <img src="../docs/figs/sense-base-framework.svg" alt="cdi-hub" width="600"/>
-  <h1> :robot: SENSE-BASE Framework </h1>
-</div>
-
+# :brain: SENSE-BASE: An Open-Source Framework for Biological Signals and Computer Vision Sensor Data
 **SENSE-BASE** is a ROS2-based framework for multimodal biosignals from EEG, EoG, ECG, and depth cameras.
+![banner-fig](../docs/figs/sense-base-framework.svg)
 
-## :school_satchel: Getting started
-* :octocat: Clone SENSE-BASE repositories under `sense-base` path and refer to the [CONTRIBUTING](../CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
+
+## 1. SENSE-BASE ROS2-based packages
+* [sense_base](https://github.com/sense-base/base) Main repo to manage packages.
+* [sense_eeg](https://github.com/sense-base/sense_eeg) Mock EEG publisher
+* [sense_msgs](https://github.com/sense-base/sense_msgs) ROS2 messages 
+* [sense_bridge](https://github.com/sense-base/sense_bridge) Manage multi-dimensional arrays
+* [sense_pose](https://github.com/sense-base/sense_pose) Pose estimation tools
+
+
+## 2. :school_satchel: Getting started
+* :octocat: Clone base repositories under `sense-base` path and refer to the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
 ```
-# For example:
-git clone git@github.com:sense-base/sense_eeg.git
+mkdir sense-base && cd sense-base
+git clone git@github.com:sense-base/base.git
 ```
 * :computer: [Setting up ROS2 with docker container](https://github.com/sense-base/base/tree/main/docs/docker)
+
+
+## 3. :nut_and_bolt: Run and debug packages
+
+### Setup environment with pyenv
+Install Python Environment (3.10 or higher recommended):
+
+#### Using uv
+```
+uv venv --python 3.10.17
+source .venv/bin/activate
+uv pip install -e ".[dev]"
+uv pip list --verbose
+```
+
+#### Using pyenv
+```bash
+pyenv install 3.10.17  
+```
+
+```bash
+pyenv virtualenv 3.10.17 sense_EEG-env
+pyenv local sense_EEG-env
+pip install -e ".[dev]"
+```
+
+#### Run Pre-commit Hooks
+```bash
+pre-commit run --all-files
+```
 
 * :nut_and_bolt: Run and debug. Open a terminal into the loaded container in VSCode using the dev containers extension, and run
 ```
@@ -30,32 +66,3 @@ ros2 bag info <bag_file_name> (e.g., `rosbag2_data_time`)
 ros2 bag play <bag_file_name>
 rqt_graph
 ```
-
-## Setup environment with pyenv
-Install Python Environment (3.10 or higher recommended):
-
-### Using pyenv
-```bash
-pyenv install 3.10.17  # Or any >=3.10 version you prefer
-```
-
-```bash
-pyenv virtualenv 3.10.17 sense_EEG-env
-pyenv local sense_EEG-env
-pip install -e ".[dev]"
-```
-
-## Using uv
-```
-uv venv --python 3.12
-source .venv/bin/activate
-uv pip install -e ".[test,learning,model_optimisation]"
-uv pip list --verbose
-pre-commit run -a
-```
-
-### Run Pre-commit Hooks
-```bash
-pre-commit run --all-files
-```
-
