@@ -69,6 +69,6 @@ ros2 bag play <bag_file_name>
 rqt_graph
 ```
 
-## Contribution guidelines and code of conduct
+## 4. Contribution guidelines and code of conduct
 * For full details on how to contribute to the project – including repository cloning and issue/branch/pull request workflows – please see the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guidelines.
 * For information on our community standards, responsibilities and enforcement policies, refer to the [CODE OF CONDUCT]((https://github.com/sense-base/base/blob/main/CODE_OF_CONDUCT.md)).
