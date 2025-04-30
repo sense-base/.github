@@ -12,13 +12,16 @@
 
 
 ## 2. :school_satchel: Getting started
-* :octocat: Clone base repositories under `sense-base` path and refer to the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
+* :octocat: Clone base repositories under `sense-base` path.
+We suggest cloning repos under sense-base path as for example `base`, `sense_eeg` and `sense_msgs`.
 ```
 mkdir sense-base && cd sense-base
 git clone git@github.com:sense-base/base.git
+git clone git@github.com:sense-base/sense_eeg.git
+git clone git@github.com:sense-base/sense_msgs.git
 ```
 * :computer: [Setting up ROS2 with docker container](https://github.com/sense-base/base/tree/main/docs/docker)
-
+* Refer to the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
 
 ## 3. :nut_and_bolt: Run and debug packages
 
