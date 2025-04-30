@@ -38,9 +38,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.61440129"
-     inkscape:cx="873.20781"
-     inkscape:cy="409.34159"
+     inkscape:zoom="1.0290004"
+     inkscape:cx="612.73058"
+     inkscape:cy="310.49551"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -169,7 +169,7 @@
          x="242.01915"
          sodipodi:role="line"
          id="tspan959">Interface</tspan></text><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#16ff16;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect963"
        width="46.879704"
        height="10.490025"
@@ -185,7 +185,7 @@
          y="155.75081"
          x="161.46675"
          sodipodi:role="line">sense_msgs</tspan></text><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#f3f4a3;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect969"
        width="46.879704"
        height="10.490025"
@@ -201,7 +201,7 @@
          y="116.33035"
          x="254.59984"
          sodipodi:role="line">sense_pose</tspan></text><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#f3f4a3;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect975"
        width="46.879704"
        height="10.490025"
@@ -217,7 +217,7 @@
          y="140.29375"
          x="159.21028"
          sodipodi:role="line">sense_bridge</tspan></text><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#16ff16;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect981"
        width="46.879704"
        height="10.490025"
@@ -233,7 +233,7 @@
          y="189.83662"
          x="43.87682"
          sodipodi:role="line">sense_eeg</tspan></text><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#f3f4a3;stroke-width:0.344761;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect987"
        width="46.879704"
        height="10.490025"
@@ -291,7 +291,7 @@
            y="138.97702"
            x="157.50795"
            sodipodi:role="line">MSG</tspan></text></g><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.402396;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#f3f4a3;stroke-width:0.402396;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect1072"
        width="58.286175"
        height="11.493853"
@@ -307,7 +307,7 @@
          x="252.57375"
          sodipodi:role="line"
          id="tspan1074">sense_playback</tspan></text><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.402396;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#f3f4a3;stroke-width:0.402396;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect1078"
        width="58.286175"
        height="11.493853"
@@ -507,7 +507,7 @@
          id="path23719"
          style="stroke-width:0.132969"
          sodipodi:nodetypes="ccccccccccccccccccccc" /></g><rect
-       style="opacity:0.430482;fill:#aaffaa;stroke-width:0.419893;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="opacity:0.430482;fill:#f3f4a3;stroke-width:0.419893;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
        id="rect5415"
        width="67.954933"
        height="10.734473"
