@@ -12,6 +12,8 @@
 
 
 ## 2. :school_satchel: Getting started
+* Generate your SSH keys as suggested [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+* Setup you commit signature verification as shown [here](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification).
 * :octocat: Clone base repositories under `sense-base` path.
 We suggest cloning repos under sense-base path as for example `base`, `sense_eeg` and `sense_msgs`.
 ```
@@ -71,4 +73,4 @@ rqt_graph
 
 ## 4. Contribution guidelines and code of conduct
 * For full details on how to contribute to the project – including repository cloning and issue/branch/pull request workflows – please see the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guidelines.
-* For information on our community standards, responsibilities and enforcement policies, refer to the [CODE OF CONDUCT]((https://github.com/sense-base/base/blob/main/CODE_OF_CONDUCT.md)).
+* For information on our community standards, responsibilities and enforcement policies, refer to the [CODE OF CONDUCT](https://github.com/sense-base/base/blob/main/CODE_OF_CONDUCT.md).
