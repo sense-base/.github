@@ -21,7 +21,6 @@ git clone git@github.com:sense-base/sense_eeg.git
 git clone git@github.com:sense-base/sense_msgs.git
 ```
 * :computer: [Setting up ROS2 with docker container](https://github.com/sense-base/base/tree/main/docs/docker)
-* Refer to the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guideline for detailed instructions on contributing to the project.
 
 ## 3. :nut_and_bolt: Run and debug packages
 
@@ -69,3 +68,7 @@ ros2 bag info <bag_file_name> (e.g., `rosbag2_data_time`)
 ros2 bag play <bag_file_name>
 rqt_graph
 ```
+
+## Contribution guidelines and code of conduct
+* For full details on how to contribute to the project – including repository cloning and issue/branch/pull request workflows – please see the [CONTRIBUTING](https://github.com/sense-base/base/blob/main/CONTRIBUTING.md) guidelines.
+* For information on our community standards, responsibilities and enforcement policies, refer to the [CODE OF CONDUCT]((https://github.com/sense-base/base/blob/main/CODE_OF_CONDUCT.md)).
