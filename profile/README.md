@@ -3,7 +3,7 @@
 ![banner-fig](../docs/figs/sense-base-framework.svg)
 **Diagram**. Frawework illustrates the main blocks for acquisition, base, computer vision, interface, and recorder, along with their corresponding ROS 2 packages. Highlight the green blocks as already implemented and the yellow ones as in progress.
 
-## 1. SENSE-BASE ROS2-based packages
+## 1. :robot: SENSE-BASE ROS2-based packages
 * [sense_base](https://github.com/sense-base/base) Main repo to manage packages.
 * [sense_eeg](https://github.com/sense-base/sense_eeg) Mock EEG publisher
 * [sense_msgs](https://github.com/sense-base/sense_msgs) ROS2 messages 
