@@ -1,7 +1,7 @@
 # :brain: SENSE-BASE: An Open-Source Framework for Biological Signals and Computer Vision Sensor Data
 **SENSE-BASE** is a ROS2-based framework for multimodal biosignals from EEG, EoG, ECG, and depth cameras.
 ![banner-fig](../docs/figs/sense-base-framework.svg)
-**Diagram**. Frawework illustrates the main blocks for acquisition, base, computer vision, interface, and recorder, along with their corresponding ROS 2 packages. Highlight the green blocks as already implemented and the yellow ones as in progress. See also logo [here](../docs/figs/sense-base-logo.svg)
+**Diagram**. Frawework illustrates the main blocks for acquisition, base, computer vision, interface, and recorder, along with their corresponding ROS 2 packages. Highlight the green blocks as already implemented and the yellow ones as in progress.
 
 ## 1. :robot: SENSE-BASE ROS2-based packages
 * [sense_base](https://github.com/sense-base/base) Main repo to manage packages.
