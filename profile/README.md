@@ -34,7 +34,7 @@ Install Python Environment (3.10 or higher recommended):
 ```
 #cd package name
 cd workspace/src/sense_msgs/
-uv venv --python 3.10.17
+uv venv --python 3.10
 source .venv/bin/activate
 uv pip install -e ".[dev]"
 uv pip list --verbose
