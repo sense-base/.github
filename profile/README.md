@@ -4,6 +4,7 @@
 **Diagram**. Frawework illustrates the main blocks for acquisition, base, computer vision, interface, and recorder, along with their corresponding ROS 2 packages. Highlight the green blocks as already implemented and the yellow ones as in progress. See also logo [here](../docs/figs/sense-base-logo.svg)
 
 ## 1. :robot: SENSE-BASE ROS2-based packages
+The ROS2 packages are developed, built, and supported for the [Humble distribution](https://docs.ros.org/en/rolling/Releases.html#list-of-distributions).
 * [sense_base](https://github.com/sense-base/base) Main repo to manage packages.
 * [sense_eeg](https://github.com/sense-base/sense_eeg) Mock EEG publisher
 * [sense_msgs](https://github.com/sense-base/sense_msgs) ROS2 messages 
