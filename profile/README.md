@@ -54,7 +54,7 @@ pip install -e ".[dev]"
 
 #### Run Pre-commit Hooks
 ```bash
-pre-commit run --all-files
+uv pre-commit run --all-files
 ```
 
 ## 4. :nut_and_bolt: Run and debug packages
